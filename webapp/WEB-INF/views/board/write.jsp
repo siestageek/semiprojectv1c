@@ -36,7 +36,7 @@
         			frm.contents.focus();
         		} else {
         			frm.method = 'post';
-        			frm.action = 'writeok.jsp';
+        			frm.action = '/mvc/board/write';
         			frm.submit();
         		}        		
         	}
